@@ -15,9 +15,10 @@ Ubuntu 20.04 and 22.04; CMake 3.16.3; CUDA 12.1; MATLAB R2020b
 ## Getting started
 You have to compile the mex related files to obtain mex functions based on [CMake template] (https://github.com/BjoernHaefner/mweCmakeMexCppCuda):
 1) go to the dectories FSH_v2/inv/mex_functions/global_fitting_matlab_mex and FSH_v2/inv/mex_functions/local_fitting_matlab_mex, and do
-   `cmake ..`
+   `cmake ..`  
    `make`
    `the generated .mexa64 file is located in the .../build/libs, and put them into the place where MATLAB can invoke`
+2)
 
 
 
