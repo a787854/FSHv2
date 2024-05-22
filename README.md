@@ -30,9 +30,9 @@ Two forest height mosaics were generated in the northeast of U.S. and China usin
 
 
 ## Contributors:
-Yanghai Yu (Email: yuyanghai@nssc.ac.cn, or filippoyu0717@gmail.com)
-Yang Lei (Email: leiyang@nssc.ac.cn, leiyangfrancis@gmail.com)
-Paul Siqueira
+Yanghai Yu (Email: yuyanghai@nssc.ac.cn, or filippoyu0717@gmail.com) 
+Yang Lei (Email: leiyang@nssc.ac.cn, leiyangfrancis@gmail.com) 
+Paul Siqueira 
 
 
 
