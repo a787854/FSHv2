@@ -12,13 +12,29 @@ This software is developed to generate the forest height mosaic by using ALOS-1 
 ## Tested environment:
 Ubuntu 20.04 and 22.04; CMake 3.16.3; CUDA 12.1; MATLAB R2020b
 
-## Getting started
+## Installation
 You have to compile the mex related files to obtain mex functions based on [CMake template] (https://github.com/BjoernHaefner/mweCmakeMexCppCuda):
 1) go to the dectories FSH_v2/inv/mex_functions/global_fitting_matlab_mex and FSH_v2/inv/mex_functions/local_fitting_matlab_mex, and do
    `cmake ..`  
-   `make`
-   `the generated .mexa64 file is located in the .../build/libs, and put them into the place where MATLAB can invoke`
-2)
+   `make` 
+   `the generated .mexa64 file is located in the .../build/libs, and put them into the place where MATLAB terminal can invoke`
+
+## How to use:
+   An example dataset and the tutorial is provided here.
+
+## Relevant products:
+Two forest height mosaics were generated in the northeast of U.S. and China using these scripts and can be downloaded via [this link] (https://doi.org/10.5281/zenodo.11142224)
+
+   
+
+
+
+## Contributors:
+Yanghai Yu (Email: yuyanghai@nssc.ac.cn, or filippoyu0717@gmail.com)
+Yang Lei (Email: leiyang@nssc.ac.cn, leiyangfrancis@gmail.com)
+Paul Siqueira
+
+
 
 
 
