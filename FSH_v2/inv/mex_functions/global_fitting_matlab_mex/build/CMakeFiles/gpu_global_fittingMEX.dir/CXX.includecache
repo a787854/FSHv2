@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yanghai/fsh_v2_cuda/matlab_cuda/global_fitting_matlab_mex/src/mex/global_fitting_gpu_mex.cpp
+iostream
+-
+mex.h
+/home/yanghai/fsh_v2_cuda/matlab_cuda/global_fitting_matlab_mex/src/mex/mex.h
+iostream
+-
+complex
+-
+
+/home/yanghai/matlab/Polyspace/R2020b/extern/include/matrix.h
+stdlib.h
+-
+stddef.h
+-
+tmwtypes.h
+/home/yanghai/matlab/Polyspace/R2020b/extern/include/tmwtypes.h
+assert.h
+-
+
+/home/yanghai/matlab/Polyspace/R2020b/extern/include/mex.h
+stdio.h
+-
+matrix.h
+/home/yanghai/matlab/Polyspace/R2020b/extern/include/matrix.h
+
+/home/yanghai/matlab/Polyspace/R2020b/extern/include/tmwtypes.h
+mwstdint.h
+/home/yanghai/matlab/Polyspace/R2020b/extern/include/mwstdint.h
+limits.h
+-
+stdbool.h
+-
+float.h
+-
+stddef.h
+-
+
