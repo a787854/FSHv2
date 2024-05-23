@@ -1,3 +1,5 @@
+<img src="https://github.com/a787854/FSHv2/blob/dev/preview_china_FSH_mosaic.jpeg" width="100%">
+
 # Forest Stand Height (FSH) v2  
 This software is developed to generate the forest height mosaic by using ALOS-1 or ALOS-2 repeat-pass SAR Interferometry and GEDI spaceborne LiDAR data after InSAR preprocessing by JPL's ISCE software. This project is the extended version of original [FSH](https://github.com/leiyangleon/FSH) scripts.
 
@@ -23,7 +25,7 @@ You have to compile the mex related files to obtain mex functions based on [CMak
    An example dataset and the tutorial is provided here.
 
 ## Relevant products:
-Two forest height mosaics were generated in the northeast of U.S. and China using these scripts and can be downloaded via [this link] (https://doi.org/10.5281/zenodo.11142224)
+Two forest height mosaics were generated in the northeast of U.S. and China using these scripts and can be downloaded via [this link](https://doi.org/10.5281/zenodo.11142224)
 
    
 
