@@ -1,4 +1,4 @@
-## Image Preview: Forest Height mosaic for northeastern China
+## Image Preview: forest height mosaic for northeastern China
 <img src="https://github.com/a787854/FSHv2/blob/dev/preview_china_FSH_mosaic.jpeg" width="100%">
 
 
