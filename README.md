@@ -22,7 +22,7 @@ You have to compile the mex related files to obtain mex functions based on [CMak
    `the generated .mexa64 file is located in the .../build/libs, and put them into the place where MATLAB terminal can invoke`
 
 ## How to use:
-   An example dataset and the tutorial is provided here.
+An example dataset and a quick start guide is provided [here](https://github.com/a787854/FSHv2/edit/dev/quick_start_example.md).
 
 ## Relevant products:
 Two forest height mosaics were generated in the northeast of U.S. and China using these scripts and can be downloaded via [this link](https://doi.org/10.5281/zenodo.11142224)
