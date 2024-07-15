@@ -116,7 +116,7 @@ h_inv3 = DN_interp.*coef2(1) +coef2(2);
 
 
 
-
+# it may requires further modification
 if exist('inv_ac_rh98.txt','file')
     
     [slope_val,fitting_error] = read_inv_txt('inv_ac_rh98.txt');
@@ -127,7 +127,7 @@ end
 
 inv__ = h_inv;
 
-idx = and(inv__<=10,FSH<=60);
+idx = and(inv__<=10,FSH<=replace_value);
 
 FSH(idx) = inv__(idx);
 %FSH = h_inv;
