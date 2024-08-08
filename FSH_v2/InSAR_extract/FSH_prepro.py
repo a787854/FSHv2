@@ -2,7 +2,7 @@
 """
 Created on Fri Jul 21 10:39:03 2023
 
-@author: 11913
+@author: yanghai
 """
 
 import numpy as np
@@ -458,76 +458,7 @@ def backscatter_mosaic_v2(workdir,backscatter_source,year, alos_or_alos2 = 1):
                    
 
     
-if __name__ == '__main__':
-    #workdir = '/media/yanglei/B87CC1AA7CC163AA/alos_hainan_1.1/468_370/isce_proc_dir/20070709_20070824/forFSH'
-    #workdir = '/media/yanglei/B87CC1AA7CC163AA/alos_hainan_1.1/468_360/isce_proc_dir/20070709_20070824'
-    #workdir = '/media/yanglei/B87CC1AA7CC163AA/alos_hainan_1.1/468_360/isce_proc_dir/20070824_20071009/forFSH'
-    #workdir = '/media/yanglei/B87CC1AA7CC163AA/alos_hainan_1.1/468_360/isce_proc_dir/20071009_20071124/forFSH'
-    #workdir = '/media/yanglei/B87CC1AA7CC163AA/alos_hainan_1.1/469_370/isce_proc_dir/20070610_20070726/forFSH'
-    #workdir = '/media/yanglei/C656BE2356BE13E1/amazon_one_pair_test/alos_pair_2/815_930/forFSH'
-    #workdir = '/media/yanglei/C656BE2356BE13E1/amazon_one_pair_test/alos_pair_2/630_815/forFSH'
-    #workdir = '/media/yanglei/B87CC1AA7CC163AA/alos_hainan_1.1/469_360/isce_proc_dir/20070726_20070910/forFSH'
-    #workdir = '/media/yanglei/B87CC1AA7CC163AA/370_v3/forFSH'
-    
-    #generate the cor_input.mat for the further processing;
-    #Extract_PreProc('/media/yanghai/disk5/alos_2_china_us/neimeng_liaoning_heilongjiang/alos_pair3_431_830/pair_2/forFSH', 'cor_input.mat')
-    
-    #Or all the preprocessed InSAR data are placed in a root like
-    #workdir = '/media/yanghai/disk3/dalian_reproc/proc'
-    #The preproc function will go to each directory of InSAR pair in each path_frame directory to generate the cor_input.mat 
-    #preproc_batch(workdir) 
-      
-      
-    
-    # Another function is provided here for mosaicing the ALOS backscatter tiles for each InSAR pair
-    #processing one single InSAR pair 
-    #the path to one single InSAR directory 
-    #input path = /media/yanghai/disk3/china_ne_unzip/416_930/isce_proc_dir/20090819_20091004/forFSH
-      
-    #gdal_mosaic_each_dir('/media/yanghai/disk3/china_ne_unzip/416_930/isce_proc_dir/20090819_20091004/forFSH','/media/yanghai/disk4/china_ne_19_backscatter',19, 1 )
-    
-    workdir = '/media/yanghai/disk3/dalian_reproc/proc'
-    #preproc_batch(workdir)
-    #preproc_batch(workdir)
-     
-    #backscatter_debug
-    workdir = '/media/yanghai/disk2/saihanba_reproc'
-    #backscatter_source = '/media/yanghai/disk5/howland_backscatter'
-    
-    #backscatter_mosaic_v1(workdir,backscatter_source,'09')
-    
-    
-    workdir = '/media/yanghai/disk3/426_2009'
-    workdir = '/media/yanghai/disk3/china_ne_unzip'
-    workdir = '/media/yanghai/disk2/saihanba_reproc'
-    backscatter_source = '/media/yanghai/disk2/saihanba_backscatter_21'
-    
-    #gdal_mosaic_each_dir(workdir,backscatter_source,19,1)
-    #backscatter_mosaic_v2(workdir,backscatter_source,21,1)
-    
-    workdir = '/media/yanghai/disk4/wnmf_reproc/126_870/isce_proc_dir/20100814_20100929/forFSH'
-    backscatter_source = '/media/yanghai/disk4/wnmf_reproc/backscatter_10'
-    #gdal_mosaic_each_dir(workdir,backscatter_source,10,0)
-    
-    
-    
-    
-    workdir = '/media/yanghai/disk2/NewHampshire/forFSH'
-    #workdir = '/media/yanghai/disk2/ma_vermont'
-    output_name = 'cor_input.mat'
-    #Extract_PreProc(workdir, output_name)
-    #workdir = '/media/yanghai/disk5/me_07'
-    
-    
-    backscatter_source = '/media/yanghai/disk4/china_ne_19_backscatter'
-    #backscatter_source = '/media/yanghai/disk4/china_ne_21_backscatter'
-    workdir = '/media/yanghai/disk3/china_ne_unzip'
-    workdir = '/media/yanghai/disk3/reproc_v3/proc'
-    workdir = '/media/yanghai/disk3/backscatter_reproc_v2'
-    workdir = '/media/yanghai/disk3/dalian_reproc/proc'
-    backscatter_mosaic_v2(workdir,backscatter_source,19,1)
-    #backscatter_mosaic_v2(workdir,backscatter_source,21,1)
-    #preproc_batch(workdir)
+
 
             
     

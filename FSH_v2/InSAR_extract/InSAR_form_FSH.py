@@ -14,7 +14,7 @@ import time
 import argparse
 import pdb
 import os
-import isce
+#import isce
 import shelve
 import string
 import sys
@@ -326,36 +326,5 @@ def InSAR_form_batch(rootpath, flag_intf_proc=0):
                     
                     
                     
-    
-if __name__ == '__main__':
-    #forming the InSAR pairs.....
-    #exe_path = '/media/yanghai/disk4/426_2009_proc'
-    #exe_path ='/media/yanghai/disk4/431_2009_proc'
-    #exe_path = '/media/yanghai/disk4/wnmf_reproc'
-    exe_path = '/media/yanghai/disk4/423_reproc'
-    exe_path = '/media/yanghai/disk4/418_920_reproc/'
-    exe_path = '/media/yanghai/disk3/reproc_massive_v2'
-    exe_path = '/media/yanghai/disk3/dalian_reproc/proc'
-    #exe_path = '/media/yanghai/disk3/china_ne_unzip/443_940'
-    #InSAR_Form(exe_path)
-    #runISCE_all_subdir(os.path.join(exe_path,'isce_proc_dir'))
-    #runDeleteFiles_batch(exe_path)
-    code = InSAR_form_batch(exe_path)
-    
-    #executing ISCE processing
-    runISCE_batch(exe_path,code)
-    
-    exe_path  = '/media/yanghai/disk3/china_ne_unzip'
-    #extract_files_single(work_dir)
-    #DeleteFiles_single(work_dir)
-    #extracting the files 
-    #runExtractFile_batch(exe_path)
-    #runDeleteFiles_batch(exe_path)
- 
-    
-    
-    #exe_path = '/media/yanglei/B87CC1AA7CC163AA/alos_hainan_1.1/468_360'
-    #InSAR_Form(exe_path)
-    #exe_path = '/media/yanglei/B87CC1AA7CC163AA/alos_hainan_1.1/468_360/isce_proc_dir'
-    #runISCE_all_subdir(exe_path)           
+             
             
