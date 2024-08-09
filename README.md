@@ -3,21 +3,21 @@
 
 
 # Forest Stand Height (FSH) v2  
-This software is developed to generate the forest height mosaic by using ALOS-1 or ALOS-2 repeat-pass SAR Interferometry and GEDI spaceborne LiDAR data after InSAR preprocessing by JPL's ISCE software. This project is the extended version of original [FSH](https://github.com/leiyangleon/FSH) scripts.
+This software is developed to generate the forest height mosaic by using ALOS-1 or ALOS-2 repeat-pass SAR Interferometry and GEDI spaceborne LiDAR data after InSAR preprocessing by JPL's ISCE software. This project is the extended version of original [FSH](https://github.com/leiyangleon/FSH) software.
 
 
 ## Requirements
-* Python (>=3.6) Enviroment (mandatory)
-* [MATLAB](https://de.mathworks.com/) (mandatory)
+* Python (>=3.6, mandatory) Environment, but it requires version <= 3.8 for compiling ISCE2.
+* [MATLAB](https://ww2.mathworks.cn/) (mandatory)
 * [CMake](https://cmake.org/) (mandatory)
 * [CUDA](https://developer.nvidia.com/cuda-downloads) (mandatory)
 
 
 ## Tested environment:
-Ubuntu 20.04 and 22.04; CMake 3.16.3; CUDA 12.1; MATLAB R2020b
+Ubuntu 20.04 and 22. 04 (with Conda env); CMake 3.16.3; CUDA 12.1; MATLAB R2020b
 
 ## Installation
-You have to compile the mex related files to obtain mex functions based on [CMake template] (https://github.com/BjoernHaefner/mweCmakeMexCppCuda):
+You have to compile the mex related files to obtain mex functions based on [CMake template] (https://github.com/BjoernHaefner/mweCmakeMexCppCuda) which can be directly invoked by Matlab:
 1) go to the dectories FSH_v2/inv/mex_functions/global_fitting_matlab_mex and FSH_v2/inv/mex_functions/local_fitting_matlab_mex, and do   
    `cmake ..`  
    `make`    
@@ -27,7 +27,8 @@ You have to compile the mex related files to obtain mex functions based on [CMak
 An example dataset and a quick start guide is provided [here](https://github.com/a787854/FSHv2/edit/dev/quick_start_example.md).
 
 ## Relevant products:
-Two forest height mosaics were generated in the northeast of U.S. and China using these scripts and can be downloaded via [this link](https://doi.org/10.5281/zenodo.11142224)
+Two forest height mosaics were generated in the northeast of U.S. and China using these scripts and can be downloaded via [link](https://doi.org/10.5281/zenodo.11142224)
+
 
    
 
