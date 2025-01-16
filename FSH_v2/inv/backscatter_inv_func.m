@@ -27,7 +27,7 @@ DN = conv2(DN,kernel,'same');
  lat_ref_gamma = linspace(R.LatitudeLimits(2),R.LatitudeLimits(1),N);
  lon_ref_gamma = linspace(R.LongitudeLimits(1),R.LongitudeLimits(2),M);
  
- replace_value = 0;
+ replace_value = 100;
  
  switch rh_mode
      case 1
@@ -36,16 +36,16 @@ DN = conv2(DN,kernel,'same');
          else
             [FSH,R]  = readgeoraster('fsh_inv_rh100.tif');
          end
-          replace_value = 17;
+          %replace_value = 17;
           load LIDAR_SAR_rh100.mat
      case 2
          [FSH,R]  = readgeoraster('fsh_inv_rh98.tif');
           load LIDAR_SAR_rh98.mat
-          replace_value = 17;
+          %replace_value = 17;
      case 3
          [FSH,R]  = readgeoraster('fsh_inv_rh95.tif');
           load LIDAR_SAR_rh95.mat
-          replace_value = 13;
+          %replace_value = 13;
      otherwise
           [FSH,R]  = readgeoraster('fsh_inv.tif');
           load LIDAR_SAR_rh100.mat
